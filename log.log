@@ -1,0 +1,37 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:51:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:51:21] "[36mGET /main/static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск закат
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:51:23] "GET /search/?s=закат HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:51:23] "[36mGET /main/static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:51:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:51:24] "[36mGET /main/static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:51:25] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:51:25] "[36mGET /loader/static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Загруженный файл не является картинкой
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:51:45] "POST /post_p/ HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:29] "[36mGET /main/static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск ЗаКат
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:33] "GET /search/?s=ЗаКат HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:33] "[36mGET /main/static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:36] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:36] "[36mGET /loader/static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:51] "POST /post_p/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:51] "[36mGET /loader/static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:51] "GET /uploads/images/Desert.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:53] "[36mGET /main/static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск пус
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:57] "GET /search/?s=пус HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:57] "[36mGET /main/static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:53:57] "[36mGET /uploads/images/Desert.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:54:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:54:03] "[36mGET /main/static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:54:05] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:54:05] "[36mGET /loader/static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Загруженный файл не является картинкой
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:54:17] "POST /post_p/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:54:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2022 09:54:21] "[36mGET /main/static/style.css HTTP/1.1[0m" 304 -

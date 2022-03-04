@@ -6,7 +6,10 @@ def search(post_str):
     file_name = 'posts.json'
     posts_to_return = []
     with open(file_name, 'r', encoding='UTF-8') as file:
-        data_file = json.load(file)
+        try:
+            data_file = json.load(file)
+        except json.decoder.JSONDecodeError:
+            return '2'
 
     if post_str:
         for item in data_file:
